@@ -14,4 +14,11 @@ fmt.Printf("num is %T pi is %T\n", float64(num), pi)
 } else{
 fmt.Println("smaller than pi")
 }
+
+if num %2 == 0{
+fmt.Println("Number is even")
+}else {
+fmt.Println("Number is odd")
+}
+
 }
