@@ -15,4 +15,19 @@ fmt.Println(myslice)
 // myslice[0] = "updated"
 myslice = append(myslice[:index],myslice[index+1:]...)
 fmt.Println(myslice)
+
+numbers := []int{}
+// fmt.Println(numbers)
+for i:=0; i < len(myslice); i++{
+	numbers = append(numbers,len(myslice[i]))
+}
+fmt.Println("lenght of every item = ",numbers)
+
+updated := []string{}
+
+for i:=0; i<len(myslice); i++{
+	myslice[i] = myslice[i]+"1"
+	updated = append(updated , myslice[i]) 
+}
+fmt.Println("updated",updated)
 }
