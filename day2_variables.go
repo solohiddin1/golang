@@ -10,10 +10,10 @@ var a, b int = 1,2
 
 func main(){
 myslice := []int{1,2}
-    
+
     //s := 1
     var l int
-fmt.Println(myslice)    
+fmt.Println(myslice)
     //l = 's'
     //l = 11
  //   var l1 string
